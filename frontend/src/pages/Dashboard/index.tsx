@@ -45,7 +45,6 @@ const Dashboard: React.FC = () => {
           formattedDate: formatDate(transaction.created_at),
         }),
       );
-
       setTransactions(transactionsFormatted);
 
       const balanceFormatted = {

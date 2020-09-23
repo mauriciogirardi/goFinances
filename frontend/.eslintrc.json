@@ -37,6 +37,7 @@
         "allowExpressions": true
       }
     ],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "import/extensions": [
       "error",
       "ignorePackages",
